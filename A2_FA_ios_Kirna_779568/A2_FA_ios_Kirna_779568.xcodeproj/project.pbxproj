@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B93D4D2325C6A48D00082C69 /* ProdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93D4D2225C6A48D00082C69 /* ProdController.swift */; };
+		B93D4D2725C6AE5600082C69 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93D4D2625C6AE5600082C69 /* Product.swift */; };
+		B941CA4E25C684540019A54A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941CA4D25C684540019A54A /* AppDelegate.swift */; };
+		B941CA5025C684540019A54A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941CA4F25C684540019A54A /* SceneDelegate.swift */; };
+		B941CA5225C684540019A54A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941CA5125C684540019A54A /* ViewController.swift */; };
+		B941CA5525C684540019A54A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B941CA5325C684540019A54A /* Main.storyboard */; };
+		B941CA5825C684540019A54A /* A2_FA_ios_Kirna_779568.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B941CA5625C684540019A54A /* A2_FA_ios_Kirna_779568.xcdatamodeld */; };
+		B941CA5A25C684550019A54A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B941CA5925C684550019A54A /* Assets.xcassets */; };
+		B941CA5D25C684550019A54A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B941CA5B25C684550019A54A /* LaunchScreen.storyboard */; };
+		B941CA6825C684550019A54A /* A2_FA_ios_Kirna_779568Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941CA6725C684550019A54A /* A2_FA_ios_Kirna_779568Tests.swift */; };
+		B941CA7325C684550019A54A /* A2_FA_ios_Kirna_779568UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B941CA7225C684550019A54A /* A2_FA_ios_Kirna_779568UITests.swift */; };
+		B9E5C32B25C7E46800683204 /* searchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E5C32A25C7E46800683204 /* searchTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B941CA6425C684550019A54A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B941CA4225C684540019A54A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B941CA4925C684540019A54A;
+			remoteInfo = A2_FA_ios_Kirna_779568;
+		};
+		B941CA6F25C684550019A54A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B941CA4225C684540019A54A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B941CA4925C684540019A54A;
+			remoteInfo = A2_FA_ios_Kirna_779568;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B93D4D2225C6A48D00082C69 /* ProdController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdController.swift; sourceTree = "<group>"; };
+		B93D4D2625C6AE5600082C69 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		B941CA4A25C684540019A54A /* A2_FA_ios_Kirna_779568.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A2_FA_ios_Kirna_779568.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B941CA4D25C684540019A54A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B941CA4F25C684540019A54A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B941CA5125C684540019A54A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B941CA5425C684540019A54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B941CA5725C684540019A54A /* A2_FA_ios_Kirna_779568.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = A2_FA_ios_Kirna_779568.xcdatamodel; sourceTree = "<group>"; };
+		B941CA5925C684550019A54A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B941CA5C25C684550019A54A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B941CA5E25C684550019A54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B941CA6325C684550019A54A /* A2_FA_ios_Kirna_779568Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A2_FA_ios_Kirna_779568Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B941CA6725C684550019A54A /* A2_FA_ios_Kirna_779568Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A2_FA_ios_Kirna_779568Tests.swift; sourceTree = "<group>"; };
+		B941CA6925C684550019A54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B941CA6E25C684550019A54A /* A2_FA_ios_Kirna_779568UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A2_FA_ios_Kirna_779568UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B941CA7225C684550019A54A /* A2_FA_ios_Kirna_779568UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A2_FA_ios_Kirna_779568UITests.swift; sourceTree = "<group>"; };
+		B941CA7425C684550019A54A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9E5C32A25C7E46800683204 /* searchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B941CA4725C684540019A54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B941CA6025C684550019A54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B941CA6B25C684550019A54A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B941CA4125C684540019A54A = {
+			isa = PBXGroup;
+			children = (
+				B941CA4C25C684540019A54A /* A2_FA_ios_Kirna_779568 */,
+				B941CA6625C684550019A54A /* A2_FA_ios_Kirna_779568Tests */,
+				B941CA7125C684550019A54A /* A2_FA_ios_Kirna_779568UITests */,
+				B941CA4B25C684540019A54A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B941CA4B25C684540019A54A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B941CA4A25C684540019A54A /* A2_FA_ios_Kirna_779568.app */,
+				B941CA6325C684550019A54A /* A2_FA_ios_Kirna_779568Tests.xctest */,
+				B941CA6E25C684550019A54A /* A2_FA_ios_Kirna_779568UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B941CA4C25C684540019A54A /* A2_FA_ios_Kirna_779568 */ = {
+			isa = PBXGroup;
+			children = (
+				B941CA4D25C684540019A54A /* AppDelegate.swift */,
+				B941CA4F25C684540019A54A /* SceneDelegate.swift */,
+				B941CA5125C684540019A54A /* ViewController.swift */,
+				B941CA5325C684540019A54A /* Main.storyboard */,
+				B941CA5925C684550019A54A /* Assets.xcassets */,
+				B941CA5B25C684550019A54A /* LaunchScreen.storyboard */,
+				B941CA5E25C684550019A54A /* Info.plist */,
+				B941CA5625C684540019A54A /* A2_FA_ios_Kirna_779568.xcdatamodeld */,
+				B93D4D2225C6A48D00082C69 /* ProdController.swift */,
+				B93D4D2625C6AE5600082C69 /* Product.swift */,
+				B9E5C32A25C7E46800683204 /* searchTableViewController.swift */,
+			);
+			path = A2_FA_ios_Kirna_779568;
+			sourceTree = "<group>";
+		};
+		B941CA6625C684550019A54A /* A2_FA_ios_Kirna_779568Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B941CA6725C684550019A54A /* A2_FA_ios_Kirna_779568Tests.swift */,
+				B941CA6925C684550019A54A /* Info.plist */,
+			);
+			path = A2_FA_ios_Kirna_779568Tests;
+			sourceTree = "<group>";
+		};
+		B941CA7125C684550019A54A /* A2_FA_ios_Kirna_779568UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B941CA7225C684550019A54A /* A2_FA_ios_Kirna_779568UITests.swift */,
+				B941CA7425C684550019A54A /* Info.plist */,
+			);
+			path = A2_FA_ios_Kirna_779568UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B941CA4925C684540019A54A /* A2_FA_ios_Kirna_779568 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B941CA7725C684550019A54A /* Build configuration list for PBXNativeTarget "A2_FA_ios_Kirna_779568" */;
+			buildPhases = (
+				B941CA4625C684540019A54A /* Sources */,
+				B941CA4725C684540019A54A /* Frameworks */,
+				B941CA4825C684540019A54A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = A2_FA_ios_Kirna_779568;
+			productName = A2_FA_ios_Kirna_779568;
+			productReference = B941CA4A25C684540019A54A /* A2_FA_ios_Kirna_779568.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B941CA6225C684550019A54A /* A2_FA_ios_Kirna_779568Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B941CA7A25C684550019A54A /* Build configuration list for PBXNativeTarget "A2_FA_ios_Kirna_779568Tests" */;
+			buildPhases = (
+				B941CA5F25C684550019A54A /* Sources */,
+				B941CA6025C684550019A54A /* Frameworks */,
+				B941CA6125C684550019A54A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B941CA6525C684550019A54A /* PBXTargetDependency */,
+			);
+			name = A2_FA_ios_Kirna_779568Tests;
+			productName = A2_FA_ios_Kirna_779568Tests;
+			productReference = B941CA6325C684550019A54A /* A2_FA_ios_Kirna_779568Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B941CA6D25C684550019A54A /* A2_FA_ios_Kirna_779568UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B941CA7D25C684550019A54A /* Build configuration list for PBXNativeTarget "A2_FA_ios_Kirna_779568UITests" */;
+			buildPhases = (
+				B941CA6A25C684550019A54A /* Sources */,
+				B941CA6B25C684550019A54A /* Frameworks */,
+				B941CA6C25C684550019A54A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B941CA7025C684550019A54A /* PBXTargetDependency */,
+			);
+			name = A2_FA_ios_Kirna_779568UITests;
+			productName = A2_FA_ios_Kirna_779568UITests;
+			productReference = B941CA6E25C684550019A54A /* A2_FA_ios_Kirna_779568UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B941CA4225C684540019A54A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = user165337;
+				TargetAttributes = {
+					B941CA4925C684540019A54A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					B941CA6225C684550019A54A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B941CA4925C684540019A54A;
+					};
+					B941CA6D25C684550019A54A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B941CA4925C684540019A54A;
+					};
+				};
+			};
+			buildConfigurationList = B941CA4525C684540019A54A /* Build configuration list for PBXProject "A2_FA_ios_Kirna_779568" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B941CA4125C684540019A54A;
+			productRefGroup = B941CA4B25C684540019A54A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B941CA4925C684540019A54A /* A2_FA_ios_Kirna_779568 */,
+				B941CA6225C684550019A54A /* A2_FA_ios_Kirna_779568Tests */,
+				B941CA6D25C684550019A54A /* A2_FA_ios_Kirna_779568UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B941CA4825C684540019A54A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B941CA5D25C684550019A54A /* LaunchScreen.storyboard in Resources */,
+				B941CA5A25C684550019A54A /* Assets.xcassets in Resources */,
+				B941CA5525C684540019A54A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B941CA6125C684550019A54A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B941CA6C25C684550019A54A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B941CA4625C684540019A54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93D4D2325C6A48D00082C69 /* ProdController.swift in Sources */,
+				B941CA5225C684540019A54A /* ViewController.swift in Sources */,
+				B941CA4E25C684540019A54A /* AppDelegate.swift in Sources */,
+				B941CA5025C684540019A54A /* SceneDelegate.swift in Sources */,
+				B941CA5825C684540019A54A /* A2_FA_ios_Kirna_779568.xcdatamodeld in Sources */,
+				B93D4D2725C6AE5600082C69 /* Product.swift in Sources */,
+				B9E5C32B25C7E46800683204 /* searchTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B941CA5F25C684550019A54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B941CA6825C684550019A54A /* A2_FA_ios_Kirna_779568Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B941CA6A25C684550019A54A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B941CA7325C684550019A54A /* A2_FA_ios_Kirna_779568UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B941CA6525C684550019A54A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B941CA4925C684540019A54A /* A2_FA_ios_Kirna_779568 */;
+			targetProxy = B941CA6425C684550019A54A /* PBXContainerItemProxy */;
+		};
+		B941CA7025C684550019A54A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B941CA4925C684540019A54A /* A2_FA_ios_Kirna_779568 */;
+			targetProxy = B941CA6F25C684550019A54A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B941CA5325C684540019A54A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B941CA5425C684540019A54A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B941CA5B25C684550019A54A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B941CA5C25C684550019A54A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B941CA7525C684550019A54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B941CA7625C684550019A54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B941CA7825C684550019A54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = A2_FA_ios_Kirna_779568/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "k.A2-FA-ios-Kirna-779568";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B941CA7925C684550019A54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = A2_FA_ios_Kirna_779568/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "k.A2-FA-ios-Kirna-779568";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B941CA7B25C684550019A54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = A2_FA_ios_Kirna_779568Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "k.A2-FA-ios-Kirna-779568Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/A2_FA_ios_Kirna_779568.app/A2_FA_ios_Kirna_779568";
+			};
+			name = Debug;
+		};
+		B941CA7C25C684550019A54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = A2_FA_ios_Kirna_779568Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "k.A2-FA-ios-Kirna-779568Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/A2_FA_ios_Kirna_779568.app/A2_FA_ios_Kirna_779568";
+			};
+			name = Release;
+		};
+		B941CA7E25C684550019A54A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = A2_FA_ios_Kirna_779568UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "k.A2-FA-ios-Kirna-779568UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = A2_FA_ios_Kirna_779568;
+			};
+			name = Debug;
+		};
+		B941CA7F25C684550019A54A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = A2_FA_ios_Kirna_779568UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "k.A2-FA-ios-Kirna-779568UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = A2_FA_ios_Kirna_779568;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B941CA4525C684540019A54A /* Build configuration list for PBXProject "A2_FA_ios_Kirna_779568" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B941CA7525C684550019A54A /* Debug */,
+				B941CA7625C684550019A54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B941CA7725C684550019A54A /* Build configuration list for PBXNativeTarget "A2_FA_ios_Kirna_779568" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B941CA7825C684550019A54A /* Debug */,
+				B941CA7925C684550019A54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B941CA7A25C684550019A54A /* Build configuration list for PBXNativeTarget "A2_FA_ios_Kirna_779568Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B941CA7B25C684550019A54A /* Debug */,
+				B941CA7C25C684550019A54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B941CA7D25C684550019A54A /* Build configuration list for PBXNativeTarget "A2_FA_ios_Kirna_779568UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B941CA7E25C684550019A54A /* Debug */,
+				B941CA7F25C684550019A54A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B941CA5625C684540019A54A /* A2_FA_ios_Kirna_779568.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B941CA5725C684540019A54A /* A2_FA_ios_Kirna_779568.xcdatamodel */,
+			);
+			currentVersion = B941CA5725C684540019A54A /* A2_FA_ios_Kirna_779568.xcdatamodel */;
+			path = A2_FA_ios_Kirna_779568.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B941CA4225C684540019A54A /* Project object */;
+}
